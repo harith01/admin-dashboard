@@ -1,0 +1,10 @@
+.icon, .sidebar-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.sidebar-item, .sidebar-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
