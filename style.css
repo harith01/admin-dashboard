@@ -1,3 +1,18 @@
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    background-color: blue;
+    height: 100vh;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: 80px 300px auto;
+}
+
 .icon, .sidebar-icon{
     width: 2rem;
     height: 2rem;
@@ -7,4 +22,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.image{
+    width: 3rem;
+    height: 3rem;
 }
